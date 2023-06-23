@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-5-numero-magico",
+  "version": "1.0.0",
+  "description": "numero magico",
+  "main": "numero.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jose rivadeneira",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
+}

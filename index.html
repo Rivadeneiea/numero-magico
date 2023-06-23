@@ -4,14 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>numero magico</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
   </head>
   <body>
-    <h1>comenzar el juego</h1>
-    <div class="container">
-      <div class="input-group mb-3">
-        <button id="comenzar">comenzar</button>
+    <div class="container mt-5">
+      <h1>Numero magico</h1>
+      <button id="comenzar" class="btn btn-primary">comenzar juego</button>
+      <div id="juego" style="display: none">
+        <p>intenta adivinar un numero</p>
+        <div class="input-group mb-3">
+          <input
+            type="namber"
+            id="numeroIngresado"
+            class="form-control"
+            placeholder="ingrese un numero"
+          />
+          <div class="input-group-append">
+            <button id="adivina" class="btn btn-primary">enviar</button>
+          </div>
+        </div>
+        <p id="resultado" class="mt-3"></p>
       </div>
     </div>
   </body>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="numero.js"></script>
 </html>
